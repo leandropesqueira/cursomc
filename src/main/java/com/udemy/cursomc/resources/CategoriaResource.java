@@ -12,7 +12,7 @@ import com.udemy.cursomc.services.CategoriaService;
 
 @RestController
 @RequestMapping(value = "/categorias")
-public class CategoriaResources {
+public class CategoriaResource {
 	
 	@Autowired
 	private CategoriaService service;
